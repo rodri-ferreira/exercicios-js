@@ -4,8 +4,10 @@ function verificaPalindromo(palavra) {
     let palavraInvertida = palavra.split('').reverse().join('');
 
     if (palavra === palavraInvertida) {
-            console.log(`palavra --=[;'./{}}}{[]}]`);
+        console.log("palindromo");
+    } else {
+        console.log("não é palindromo")
     }
 }
 
-verificaPalindromo("rodrigo")
+verificaPalindromo("tonho")
